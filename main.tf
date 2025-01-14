@@ -58,7 +58,7 @@ resource "aws_lambda_function" "hello_world" {
 
 # IAM Role for Lambda
 resource "aws_iam_role" "lambda_role" {
-  name = "hello_world_lambda_role"
+  name = "hello_world_lambda_role_new"
 
   assume_role_policy = jsonencode({
     Version = "2012-10-17"
