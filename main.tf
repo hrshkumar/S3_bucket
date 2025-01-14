@@ -17,10 +17,10 @@ provider "aws" {
   s3_use_path_style           = true
 
   endpoints {
-    apigateway = "http://localhost:4566"
-    lambda     = "http://localhost:4566"
-    iam        = "http://localhost:4566"
-    s3         = "http://localhost:4566"
+    apigateway = "http://localstack-main:4566"
+    lambda     = "http://localstack-main:4566"
+    iam        = "http://localstack-main:4566"
+    s3         = "http://localstack-main:4566"
   }
 }
 
